@@ -1,9 +1,5 @@
 /*Container*/
 
-*{
-    box-sizing: border-box;
-}
-
 /*Header*/
 
 .pills{
@@ -14,24 +10,24 @@
 }
 
 header{
-    width: 1440px;
+    width: 100%;
     height: 900px;
 }
 
 /*Nav Start*/
 
-.bg-body{
-    --bs-bg-opacity: 0
+.bg-body-tertiary{
+    --bs-bg-opacity: 0;
 }
 
 .container-fluid a{
     display: flex;
-width: 80px;
-height: 80px;
-padding: 28px;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    padding: 28px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 .white-icon{
@@ -108,19 +104,16 @@ right: 26px;
 
 /*Header Main*/
 
-.first-row{/*Nekreipkit demesio, cia nieko keisto, pasirasiau ne taip, neturejau laiko taisyti*/
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 40px;
-}
-
 .he1{
     display: flex;
     width: 458px;
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
+}
+
+section{
+    
 }
 
 h1{
@@ -161,9 +154,7 @@ span{
 }
 
 .second-row{
-    display: flex;
-    align-items: flex-start;
-    gap: 48px;
+    height: 50%;
 }
 
 .trusted{
@@ -214,4 +205,27 @@ span{
 .tech svg{
     width: 24px;
     height: 24px;
+}
+
+.phone{
+    width: 461.625px;
+    height: 790px;
+    max-width: 100%;
+}
+
+.phone img{
+    width: 148%;
+}
+
+
+
+
+/*Main*/
+
+.gradient{
+    width: 1440px;
+    height: 149px;
+    flex-shrink: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 58%); 
 }
